@@ -13,8 +13,8 @@
 - Add Evelyn and Ritu to the repo
 - Broadly interested in health topics, mental health, virology, immunology etc over environmental microbiomes
 - Depression dataset: we are the first ones analyzing it, could be tricky if there are any hiccups
--   Will probably need to do some extra psych research
--   Current depression dataset has HIV/HCV coinfection but patient group not specified in the metadata so we shouldn't use it 
+  - Will probably need to do some extra psych research
+  - Current depression dataset has HIV/HCV coinfection but patient group not specified in the metadata so we shouldn't use it 
 - Have a research question decided by the end of next meeting (**Tues Feb 3**)
 - Can find the paper associated with the dataset and send it to Evelyn by the end of **Friday Jan 30**, she'll look at the data and metadata
 - Have a backup of another dataset to use in case we can't find one
