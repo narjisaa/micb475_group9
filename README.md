@@ -6,7 +6,7 @@
 - Review the demux.qzv generated for the Parkinson's dataset
 - Review the table.qzv generated for the Parkinson's dataset
 - Assignment 6 discussion
-  - Option I: Matthew
+  - Option I: Matthew, Mikaela
   - Option II: Jaclyn, Ella
   - Option III: Narjis
 - Discuss proposal plan
