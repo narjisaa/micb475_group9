@@ -1,0 +1,76 @@
+##Setting everything up##
+
+#connecting to the server 
+ssh root@10.19.139.192
+
+#making a copy of a directory to use in the data folder 
+cp -r datasets/project_2/parkinsons data 
+
+#creating a background screen 
+screen -S parkinsons_processing
+
+##Importing a manifest file and demultiplexing it while working directory is data##
+
+#Check if paired or single end
+head parkinsons/parkinsons_manifest.tsv
+
+ls /datasets/project_2/parkinsons/seqs/*R2*
+#found there is only R1 meaning single-end 
+
+#if data is single-end use this code 
+qiime tools import \
+  --type 'SampleData[SequencesWithQuality]' \
+  --input-format SingleEndFastqManifestPhred33V2 \
+  --input-path parkinsons/parkinsons_manifest.tsv \
+  --output-path demux.qza
+
+# Create visualization of demultiplexed samples
+qiime demux summarize \
+  --i-data demux.qza \
+  --o-visualization demux.qzv
+
+#transfered file to computer working directory to view in qiime2 website
+
+##Denoise & Cluster##
+
+qiime dada2 denoise-single \
+  --i-demultiplexed-seqs demux.qza \
+  --p-trim-left 0 \
+  --p-trunc-len 220 \
+  --o-representative-sequences rep-seqs.qza \
+  --o-table table.qza \
+  --o-denoising-stats stats.qza
+
+# Visualize ASVs stats
+qiime feature-table summarize \
+  --i-table table.qza \
+  --o-visualization table.qzv \
+  --m-sample-metadata-file parkinsons/parkinsons_metadata.txt 
+
+qiime feature-table tabulate-seqs \
+  --i-data rep-seqs.qza \
+  --o-visualization rep-seqs.qzv
+
+#transfer file to computer working directory to view table.qzv in qiime2 website 
+
+##Filtering## 
+
+#resume screen session 
+screen -r parkinsons_processing
+
+# Taxonomic analysis using GreenGenes classifier specif to the V4 region since that is what the researchers used in the paper for their classifier
+qiime feature-classifier classify-sklearn \
+  --i-classifier /datasets/classifiers/gg-2024-515F-806R-classifier.qza \
+  --i-reads rep-seqs.qza \
+  --o-classification taxonomy.qza
+
+qiime metadata tabulate \
+  --m-input-file taxonomy.qza \
+  --o-visualization taxonomy.qzv
+
+# Taxonomy barplots
+qiime taxa barplot \
+  --i-table table.qza \
+  --i-taxonomy taxonomy.qza \
+  --m-metadata-file parkinsons/parkinsons_metadata.txt \
+  --o-visualization taxa-bar-plots.qzv
