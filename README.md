@@ -18,8 +18,31 @@
 ### Attendance: Narjis, Matthew, Jaclyn, Mikaela, Ella, Evelyn, Ritu
 
 ## Team Meeting 3 Notes
-- To fill in during meeting
-
+## Proposal notes
+- For the proposal, people writing different parts, set a deadline for group and go through each other's parts to make sure the tone/flow of language is coherent.
+- RQ section:
+  - Mention in bold, then write paragraph about hypothesis and background (could be different diseases; can refer to intro again).
+- Title of proposal should be 'investigating' or 'exploring' rather than a conclusion.
+- Background:
+  - Mention Parkinson's, what this looks like pathologically and what the severity scores indicate. 
+- Dataset discussion:
+  - Overview of individuals in the data (age, etc.)
+- Aims:
+  - Mention that we will be looking at x metric, x statistical test, ensure to write everything explicitly.
+  - Initial high-level analysis, aim is to look at different levels of severity and gut microbiome diversity.
+  - When we look into the data further (Core Microbiome, Species Indicator).
+    - Core Microbiome = differences between groups.
+    - Species Indicator = specific species associated/rare species of bacteria present in conditions.
+    - DESeq = microbiome influences species present (upregulation/downregulation).
+    - Functional analysis? Evelyn mentioned we will determine this later if we have certain findings. 
+  - For example, looking at Core Microbiome across different severity levels (comparative).
+- Analysis: 
+    - Run both alpha and beta diversity on all 3 variables selected.
+    - May all be significant, can decide what to move forward with based on this.
+    - Can find studies that look at the variables that bin the scores.
+    - Coding should be done up to rarefaction.
+    - Comparing between groups with continuity - may need to categorize afterwards, but first one is correlative analysis with alpha diversity.
+    - Be explicit when we write this - the reader needs to know we are categorizing afterwards. 
 
 ## Feb 3, 2026
 ## Team Meeting 2 Agenda
