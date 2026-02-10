@@ -1,12 +1,32 @@
 # micb475_project2
 ## 2026WT: group 9 MICB475 project 2 repository
 
+## Feb 10, 2026
+## Team Meeting 3 Agenda
+- Review the demux.qzv generated for the Parkinson's dataset
+- Review the table.qzv generated for the Parkinson's dataset
+- Assignment 6 discussion
+  - Option I: Matthew
+  - Option II: Jaclyn, Ella
+  - Option III: Narjis
+- Discuss proposal plan
+  - We had a group call and set up a document for our proposal. We started to discuss roles and timeline and hope to discuss this further in the meeting
+  - We aim to do an overview of the literature to set up our research question and aims based on the pre-existing data
+  - We're hoping to lay out our proposal aims and discuss the details of each analysis discussed in the last team meeting
+
+
+### Attendance: Narjis, Matthew, Jaclyn, Mikaela, Ella, Evelyn, Ritu
+
+## Team Meeting 3 Notes
+- To fill in during meeting
+
+
 ## Feb 3, 2026
 ## Team Meeting 2 Agenda
 - Reviewing Datasets & Research Questions
 - Planning out project 2
 
-### Attendance: Narjis, Matthew, Jacklyn, Mikaela, Ella, Evelyn, Ritu
+### Attendance: Narjis, Matthew, Jaclyn, Mikaela, Ella, Evelyn, Ritu
 
 ## Team Meeting 2 Notes
 - Reading over the options for research questions
@@ -45,7 +65,7 @@
 - Course logistics
 - Datasets
 
-### Attendance: Narjis, Matthew, Jacklyn, Mikaela, Ella, Evelyn, Ritu
+### Attendance: Narjis, Matthew, Jaclyn, Mikaela, Ella, Evelyn, Ritu
 
 ## Team Meeting 1 Notes
 - Add Evelyn and Ritu to the repo
