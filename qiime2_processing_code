@@ -74,3 +74,45 @@ qiime taxa barplot \
   --i-taxonomy taxonomy.qza \
   --m-metadata-file parkinsons/parkinsons_metadata.txt \
   --o-visualization taxa-bar-plots.qzv
+
+#Taxonomic Filtering the data in qiime2 (will do major filtering in R)
+qiime taxa filter-table \
+  --i-table table.qza \
+  --i-taxonomy taxonomy.qza \
+  --p-exclude mitochondria \
+  --o-filtered-table table-no-mitochondria.qza
+
+qiime feature-table summarize \
+  --i-table table-no-mitochondria.qza \
+  --o-visualization table-no-mitochondria.qzv \
+  --m-sample-metadata-file parkinsons/parkinsons_metadata.txt
+
+#Rarefaction makes sure diversity is measured according to the amount of reads
+
+#transfer table-no-mitochondria.qzv to local computer to determine rarefaction 
+scp root@10.19.139.192:/data/table-no-mitochondria.qzv .
+
+assumed sampling depth = 9,000 (will be confirmed after alpha-rarefaction)
+
+#Generate a alpha rarefaction curve to pick a correct sampling depth
+
+# Generate a tree for phylogenetic diversity analyses
+qiime phylogeny align-to-tree-mafft-fasttree \
+  --i-sequences rep-seqs.qza \
+  --o-alignment aligned-rep-seqs.qza \
+  --o-masked-alignment masked-aligned-rep-seqs.qza \
+  --o-tree unrooted-tree.qza \
+  --o-rooted-tree rooted-tree.qza 
+
+# Alpha-rarefaction with 24,000 (close to max)
+qiime diversity alpha-rarefaction \
+  --i-table table.qza \
+  --i-phylogeny rooted-tree.qza \
+  --p-max-depth 24000 \
+  --m-metadata-file parkinsons/parkinsons_metadata.txt \
+  --o-visualization alpha-rarefaction-24000.qzv
+
+#transfer alpha-rarefaction.qzv to local computer to determine rarefaction 
+scp root@10.19.139.192:/data/alpha-rarefaction-24000.qzv .
+
+#determine the plateau on observed_features to pick the real rarefaction number that will be used for the actual analysis
