@@ -1,6 +1,10 @@
 # micb475_project2
 ## 2026WT: group 9 MICB475 project 2 repository
-
+## Feb 24, 2026
+## Team Meeting 4 Agenda
+- Review questions regarding the proposal that may still be unclear.
+- Review timeline for analysis based on feedback for the proposal.
+  
 ## Feb 10, 2026
 ## Team Meeting 3 Agenda
 - Review the demux.qzv generated for the Parkinson's dataset
