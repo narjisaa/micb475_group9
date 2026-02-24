@@ -2,7 +2,10 @@
 ## 2026WT: group 9 MICB475 project 2 repository
 ## Feb 24, 2026
 ## Team Meeting 4 Agenda
-- Review questions regarding the proposal that may still be unclear.
+- Review questions regarding the proposal that may still be unclear, including:
+  1. Can we just go ahead with correlation plots for alpha diversity and each variable instead of performing rarefaction, which doesn't work for continuous variables?
+  2. For the aims are we meant to go into detail about the confounding variables and how we are technically going to manage them? We're confused about how to control for the different    confounders technically because we identified the following in our data overview: "Possible confounding variables, including age, sex, BMI, and education (confounder for cognitive      impairment) is available for all samples while the age on set with Parkinson's (confounder for disease duration) is only available for samples with PD”
+  3. We are unsure whether we need to integrate these variables into our aims at this stage since we are unsure about how to actually control for them in the data.
 - Review timeline for analysis based on feedback for the proposal.
   
 ## Feb 10, 2026
