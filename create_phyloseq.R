@@ -58,3 +58,6 @@ TAX <- tax_table(tax_mat)
 #### Create phyloseq object ####
 # Merge all into a phyloseq object
 parkinsons_phyloseq <- phyloseq(OTU, SAMP, TAX, phylotree)
+
+#save phyloseq object
+save(parkinsons_phyloseq, file = "parkinsons_phyloseq.RData")
