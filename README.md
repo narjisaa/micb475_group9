@@ -1,5 +1,10 @@
 # micb475_project2
 ## 2026WT: group 9 MICB475 project 2 repository
+## March 3, 2026
+## Team Meeting 5 Agenda
+- Go over project feedback and discuss revisions.
+- Go over alpha diversity plots generated.
+
 ## Feb 24, 2026
 ## Team Meeting 4 Agenda
 - Review questions regarding the proposal that may still be unclear, including:
