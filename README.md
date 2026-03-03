@@ -3,6 +3,9 @@
 ## March 3, 2026
 ## Team Meeting 5 Agenda
 - Go over project feedback and discuss revisions.
+  - Ritu said she will address the mark taken away for the citation in the table using asterik as this was a Zotero issue and not purposeful deviation from "appropriate in-text citation style" (0.5 mark taken away)
+  - discussed introduction (2/4) comment on "I am also unclear what the "clinical features" you referred to in the title are, since you do not mention these anymore in your text." > see last paragraph page 2 and start of page 3
+  - 
 - Go over alpha diversity plots generated.
 
 ## Feb 24, 2026
