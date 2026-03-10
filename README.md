@@ -1,5 +1,11 @@
 # micb475_project2
 ## 2026WT: group 9 MICB475 project 2 repository
+## March 10, 2026
+## Team Meeting 6 Agenda
+- alpha and beta diversity analysis is done
+- only found sex to have a significant difference, only significance seen in the male updrs beta diversity
+- while there is no significance we can still carry on with our research aims as we may see some results for our core microbiome/ deseq2 analysis
+
 ## March 3, 2026
 ## Team Meeting 5 Agenda
 - Go over project feedback and discuss revisions.
