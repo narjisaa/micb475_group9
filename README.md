@@ -6,6 +6,36 @@
 - only found sex to have a significant difference, only significance seen in the male updrs beta diversity
 - while there is no significance we can still carry on with our research aims as we may see some results for our core microbiome/ deseq2 analysis
 
+## Team Meeting 6 Notes
+- Agenda item 1: alpha and beta diversity analysis is done
+  - for next steps, we can do everything in parallel
+  - do all 3 clinical metrics but not for functional analysis
+  - for DESEq and functional we have to do pairwise comparisons
+  - core microbiome and indicator species first
+  - if there is significane between male and female, the microbiome composition is slightly different so we need to look at them separately for each analysis
+  - for DESEq, we have to specifically mention which group is the reference (could do male to female)
+  - maybe instead of whichs score is better than the other (i.e. if UPDRS is showing significance but others are not, it's not enough evidence to say that UPDRS is better)
+    
+- Agenda item 2: only found sex to have a significant difference, only significance seen in the male updrs beta diversity
+  - Evelyn said we may see more significance when we do DESEq or indictor taxa
+    
+- Agenda item 3: while there is no significance we can still carry on with our research aims as we may see some results for our core microbiome/ deseq2 analysis
+
+Other notes:
+- Originally wanted to bin into 3 severity categories
+- Drop disease duration, too subjective, will proceed with Moca and UPDRS then do each analysis for each of the 3 severity groups + male vs female (e.g. Moca mild male, moderate male, severe male AND Moca mild female, moderate female, severe female)
+- Maybe after we're done with the project, it'll be difficult for a reader to follow
+- For the binning, use the standard thresholds but if we see that the data is getting skewed due to poor distributoin (i.e. not many mild patients)
+- 3 columns turning into 1 then using that as a reference so the 3 are:
+  - The type of score (MoCA or UPDRS)
+  - The sex (M/F)
+  - The score range (severity level)
+- If we end up only using one type of score (e.g. UPDRS only) then the research question will change but this will be our last option
+- The time of the analyses will depend on the size of the dataset but Mikaela hasn't had a lot of issues with it
+- Start with indicator species and core microbiome
+- DESEQ is comparisons and pairwise so do it later
+- A different group got a lot of indicator species so instead of showing figures for each one, they put it all into a table 
+
 ## March 3, 2026
 ## Team Meeting 5 Agenda
 - Go over project feedback and discuss revisions.
