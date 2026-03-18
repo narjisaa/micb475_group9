@@ -3,6 +3,7 @@
 ## March 17, 2026
 ## Team Meeting 7 Agenda
 - Clarify next steps for analysis with Evelyn's recommendations.
+- General project questions with whiteboard discussion. 
 
 ## March 10, 2026
 ## Team Meeting 6 Agenda
