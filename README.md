@@ -1,5 +1,9 @@
 # micb475_project2
 ## 2026WT: group 9 MICB475 project 2 repository
+## March 17, 2026
+## Team Meeting 7 Agenda
+- Clarify next steps for analysis with Evelyn's recommendations.
+
 ## March 10, 2026
 ## Team Meeting 6 Agenda
 - alpha and beta diversity analysis is done
