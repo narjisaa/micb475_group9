@@ -1,5 +1,13 @@
 # micb475_project2
 ## 2026WT: group 9 MICB475 project 2 repository
+
+## March 24, 2026
+## Team Meeting 8 Agenda
+- We feel uneasy about selecting our own thresholds for severity due to the number of individuals being uneven in each group. We got a lot of feedback from Hans during the proposal about using literature reviewed thresholds but are now getting suggestions to make up our own in order to even out the groups. We’re worried that this invalidates our research question entirely and that we won’t see significance between the groups if we shift a lot of our moderate patients into mild or severe. Can we just choose the lowest number of the groups (e.g. n=4) then select the same number from the other group to do a comparison that way without making our own thresholds?
+- Unsure whether we should further change our research question. There was only a significant difference between sexes in the UPDRS data. If we end up choosing to proceed with only MoCA, would we even need to separate by male and female? Or do we just do normal vs impaired with sexes pooled together?
+- We’re a little confused about how to interpret the outputs from some of our plots and would like to walk through them to lay out the story for our manuscript
+- Is there a way to subset the graphs to focus on most significant genus differences in downstream analysis? (DESeq, Venn diagrams). 
+
 ## March 17, 2026
 ## Team Meeting 7 Agenda
 - Clarify next steps for analysis with Evelyn's recommendations.
