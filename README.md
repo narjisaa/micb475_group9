@@ -1,17 +1,51 @@
 # micb475_project2
 ## 2026WT: group 9 MICB475 project 2 repository
 
+
+## March 31, 2026
+## Team Meeting 9 Agenda​
+- Review picrust2 outputs, no significance so we're unsure how to interpret​
+- Github repo organization, can we have all scripts in 1 R file? Do we need the scripts from working on the server?
+- Random forest model? Is it helpful here? ​
+- Presentation draft review
+
+## Team Meeting 9 Notes
+
+
 ## March 24, 2026
 ## Team Meeting 8 Agenda
 - We feel uneasy about selecting our own thresholds for severity due to the number of individuals being uneven in each group. We got a lot of feedback from Hans during the proposal about using literature reviewed thresholds but are now getting suggestions to make up our own in order to even out the groups. We’re worried that this invalidates our research question entirely and that we won’t see significance between the groups if we shift a lot of our moderate patients into mild or severe. Can we just choose the lowest number of the groups (e.g. n=4) then select the same number from the other group to do a comparison that way without making our own thresholds?
 - Unsure whether we should further change our research question. There was only a significant difference between sexes in the UPDRS data. If we end up choosing to proceed with only MoCA, would we even need to separate by male and female? Or do we just do normal vs impaired with sexes pooled together?
 - We’re a little confused about how to interpret the outputs from some of our plots and would like to walk through them to lay out the story for our manuscript
-- Is there a way to subset the graphs to focus on most significant genus differences in downstream analysis? (DESeq, Venn diagrams). 
+- Is there a way to subset the graphs to focus on most significant genus differences in downstream analysis? (DESeq, Venn diagrams).
+
+## Team Meeting 8 Notes
+- keep current bins, take out severe > easier to compare 2
+- aim 1 alpha diversity > male updrs is the one that looks with possible significant > add ribbon  ! Figure 1 of paper ABCD
+- can you do A-D in shannon instead of faith to look at abundance > supplemental 
+- aim 2 beta > female is stratified > something else driving significance
+- different colour gradient > light = low > Figure 2 
+- format the R2 + p
+- there is an even spread in the stratification > less confounding
+- can comment on the males updrs trending to the positive
+- aim 3.1.1 > removing male severe > figure 3 ABCD use 3.1.2 figure 3 AB
+- core micb show female in  updrs of moca have greater unique profile compared to diversity
+- alluding to aim 2 beta female stratifying > future direction
+- aim 3.2 > filter .7 or higher > don’t include
+- aim 3.3 > look at same sex inbetween
+- some are enriched in both of the sex
+- would be figure 4 ABCD (4)
+- aim functional > pair wise comparison
+- hoping that functional complement deseq2
+
 
 ## March 17, 2026
 ## Team Meeting 7 Agenda
 - Clarify next steps for analysis with Evelyn's recommendations.
-- General project questions with whiteboard discussion. 
+- General project questions with whiteboard discussion.
+
+## Team Meeting 7 Notes
+
 
 ## March 10, 2026
 ## Team Meeting 6 Agenda
@@ -57,6 +91,9 @@ Other notes:
   - Needing to add functional step for Piecrust > an optional module 
 - Go over alpha diversity plots generated.
 
+## Team Meeting 5 Notes
+
+
 ## Feb 24, 2026
 ## Team Meeting 4 Agenda
 - Review questions regarding the proposal that may still be unclear, including:
@@ -64,6 +101,8 @@ Other notes:
   2. For the aims are we meant to go into detail about the confounding variables and how we are technically going to manage them? We're confused about how to control for the different    confounders technically because we identified the following in our data overview: "Possible confounding variables, including age, sex, BMI, and education (confounder for cognitive      impairment) is available for all samples while the age on set with Parkinson's (confounder for disease duration) is only available for samples with PD”
   3. We are unsure whether we need to integrate these variables into our aims at this stage since we are unsure about how to actually control for them in the data.
 - Review timeline for analysis based on feedback for the proposal.
+
+## Team Meeting 4 Notes
   
 ## Feb 10, 2026
 ## Team Meeting 3 Agenda
