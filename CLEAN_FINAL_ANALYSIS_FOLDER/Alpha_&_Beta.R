@@ -430,8 +430,8 @@ male_updrs_s_plot_ribbon <- ggplot(updrs_male_metadata, aes(x = updrs3total, y =
        y = "Shannon Diversity Index") +
   annotate("text",
            x = Inf, y = Inf,
-           label = paste0("Spearman rho = ", female_rho_updrs,
-                          "\np = ", female_p_updrs),
+           label = paste0("Spearman rho = ", male_rho_updrs,
+                          "\np = ", male_p_updrs),
            hjust = 1.1, vjust = 1.0)
 male_updrs_s_plot_ribbon
 
