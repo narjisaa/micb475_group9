@@ -10,6 +10,10 @@
 - Presentation draft review
 
 ## Team Meeting 9 Notes
+- Only show the male and female PCoA plots for the picrust2 functional analysis, include in manuscript and explain results
+- Do not use random forest model, not necessary
+- Up to us how we want to organize the repo, just be sure to explain where the date can be found in the manuscript
+- Presentation draft feedback recorded as comments on the powerpoint file. Overall feedback included editing figures for readability
 
 
 ## March 24, 2026
@@ -45,6 +49,8 @@
 - General project questions with whiteboard discussion.
 
 ## Team Meeting 7 Notes
+- Overall discusses that we need to create bins based on the combination of the severity and sex (i.e. Male_Mild, Female_Mild)
+- Adding this into the metadata greatly helps with downstream analysis to keep bins together
 
 
 ## March 10, 2026
@@ -86,13 +92,12 @@ Other notes:
 ## March 3, 2026
 ## Team Meeting 5 Agenda
 - Go over project feedback and discuss revisions.
-  - Ritu said she will address the mark taken away for the citation in the table using asterik as this was a Zotero issue and not purposeful deviation from "appropriate in-text citation style" (0.5 mark taken away)
-  - discussed introduction (2/4) comment on "I am also unclear what the "clinical features" you referred to in the title are, since you do not mention these anymore in your text." > see last paragraph page 2 and start of page 3
-  - Needing to add functional step for Piecrust > an optional module 
 - Go over alpha diversity plots generated.
 
 ## Team Meeting 5 Notes
-
+- GRitu said she will address the mark taken away for the citation in the table using asterik as this was a Zotero issue and not purposeful deviation from "appropriate in-text citation style" (0.5 mark taken away)
+  - discussed introduction (2/4) comment on "I am also unclear what the "clinical features" you referred to in the title are, since you do not mention these anymore in your text." > see last paragraph page 2 and start of page 3
+  - Needing to add functional step for Piecrust > an optional module 
 
 ## Feb 24, 2026
 ## Team Meeting 4 Agenda
@@ -103,6 +108,10 @@ Other notes:
 - Review timeline for analysis based on feedback for the proposal.
 
 ## Team Meeting 4 Notes
+1. No, we still need rarefaction
+  2. Just remove the confounding variables and specify this in the manuscript down the line
+  3. Remove these variables
+- Next, functional analysis using ggpicrust2 will be performed and maybe a random forest model depending on results
   
 ## Feb 10, 2026
 ## Team Meeting 3 Agenda
