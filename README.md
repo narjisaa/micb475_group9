@@ -1,6 +1,7 @@
-# micb475_project2
-## 2026WT: group 9 MICB475 project 2 repository
+# Motor impairment in Parkinson’s disease exhibits sex-specific differences in gut microbiome composition but not functionality
 
+## Narjis Alhusseini, Jaclyn Armstrong, Ella Buric, Matthew Chan & Mikaela Pirillo
+### Department of Microbiology & Immunology, University of British Columbia, Canada
 
 ## March 31, 2026
 ## Team Meeting 9 Agenda​
